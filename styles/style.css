@@ -1,0 +1,121 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: rgb(249, 242, 234);
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 50px auto;
+}
+
+#form {
+  width: 600px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+#form * {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 3px solid grey;
+  transition: all 0.5s;
+}
+
+#form input {
+  font-size: 20px;
+  outline: none;
+}
+
+#form input:hover {
+  border-color: rgba(0, 0, 255, 0.7);
+}
+
+#form select {
+  width: 200px;
+  margin-left: -400px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#form button {
+  background-color: aqua;
+  color: red;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: all 1.5s;
+}
+
+#form button:hover {
+  font-size: 24px;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.card {
+  width: 30%;
+  padding: 10px 0px;
+  border-radius: 8px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.card img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.card h4,
+p,
+h {
+  font-size: 20px;
+  font-weight: 600;
+  color: brown;
+}
+
+.card span {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card span button {
+  width: 35%;
+  padding: 5px;
+  display: flex;
+  gap: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.card span button:nth-child(1) {
+  background-color: green;
+}
+.card span button:nth-child(2) {
+  background-color: rgb(217, 45, 45);
+}

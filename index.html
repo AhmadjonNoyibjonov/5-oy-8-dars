@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/font.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>5-oy 8-dars</title>
+</head>
+
+<body>
+    <div class="container common">
+        <form id="form">
+            <input type="text" id="name" placeholder="Ism kiritilsin...">
+            <input type="text" id="surname" placeholder="Familiya kiritilsin...">
+            <input type="number" id="age" placeholder="Yoshi kiritilsin...">
+            <input type="url" id="image" placeholder="Rasm url manzili kiritilsin...">
+            <select name="" id="nationality">
+                <option value="English">English</option>
+                <option value="Uzbek">Uzbek</option>
+                <option value="Russian">Russian</option>
+            </select>
+            <button id="button">SAVE</button>
+        </form>
+
+        <div class="wrapper">
+            <div class="card">
+                <img width="300" height="300" src="https://picsum.photos/200/300" alt="user picture">
+                <h4>Ismi familiya</h4>
+                <p>yoshi</p>
+                <h>Millati</h>
+
+                <span>
+                    <button class="edit_button"><i class="fa-regular fa-pen-to-square"></i>Edit</button>
+                    <button class="delete_button"><i class="fa-solid fa-trash-can"></i>Delete</button>
+                </span>
+            </div>
+            <div class="card">
+                <img width="300" height="300" src="http://127.0.0.1:5501/images/image.png" alt="user picture">
+                <h4>Ahmadjon Noyibjonov</h4>
+                <p>19 yosh</p>
+                <h>Uzbek</h>
+
+                <span>
+                    <button class="edit_button"><i class="fa-regular fa-pen-to-square"></i>Edit</button>
+                    <button class="delete_button"><i class="fa-solid fa-trash-can"></i>Delete</button>
+                </span>
+            </div>
+            <div class="card">
+                <img width="300" height="300" src="https://picsum.photos/200/300" alt="user picture">
+                <h4>Ismi familiya</h4>
+                <p>yoshi</p>
+                <h>Millati</h>
+
+                <span>
+                    <button class="edit_button"><i class="fa-regular fa-pen-to-square"></i>Edit</button>
+                    <button class="delete_button"><i class="fa-solid fa-trash-can"></i>Delete</button>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
